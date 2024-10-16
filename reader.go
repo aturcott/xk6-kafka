@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
+	kafkago "github.com/generalmotors/kafka-go"
 	"github.com/grafana/sobek"
-	kafkago "github.com/segmentio/kafka-go"
 	"go.k6.io/k6/js/common"
 	"go.k6.io/k6/metrics"
 )
